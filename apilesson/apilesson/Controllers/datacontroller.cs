@@ -27,9 +27,7 @@ namespace apilesson.Controllers
         public JsonResult Get()
         {
             string query = @"
-                        select uid,people ,place,wet,tmp
-                        from 
-                        data.test
+                        mysql command
             ";
 //ORDER BY uid DESC LIMIT 1
             DataTable table = new DataTable();
